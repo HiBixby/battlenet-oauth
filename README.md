@@ -1,6 +1,12 @@
 # overwatch-rank-recorder
 
-battle.net oauth2 login을 구현할 예정
+<div>
+<img src="https://img.shields.io/badge/Battle.net-148EFF?style=flat-square&logo=Battle.net&logoColor=white" />
+<img src="https://img.shields.io/badge/Spring Security-6DB33F?style=flat-square&logo=Spring%20Security&logoColor=white" />
+<img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=Spring%20Boot&logoColor=white" />
+</div>
+
+* Battle.net의 oauth2 로그인 구현 예정
 
 #### application.yml
 
@@ -16,7 +22,7 @@ Spring:
             redirect-uri: http://localhost:8080/login/oauth2/code/battlenet
             authorization-grant-type: authorization_code
             scope: openid
-            client-name: Battlenet
+            client-name: Battle.net
         provider:
           battlenet:
             authorization-uri: https://oauth.battle.net/authorize
