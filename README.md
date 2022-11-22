@@ -28,6 +28,5 @@ Spring:
             authorization-uri: https://oauth.battle.net/authorize
             token-uri: https://oauth.battle.net/token
             user-info-uri: https://oauth.battle.net/oauth/userinfo
-            user-name-attribute: id
             jwk-set-uri: https://oauth.battle.net/jwks/certs
 ```
