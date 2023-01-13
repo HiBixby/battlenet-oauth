@@ -1,4 +1,4 @@
-# overwatch-rank-recorder
+# Bettlenet oauth
 
 <div>
 <img src="https://img.shields.io/badge/Battle.net-148EFF?style=flat-square&logo=Battle.net&logoColor=white" />
